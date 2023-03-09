@@ -1,6 +1,7 @@
 {
     "users": [
-        {"id": 1,
+        {
+            "id": 1,
             "name": "Stephen Byard",
             "email": "stephen@byard.com",
             "password": "byard"
@@ -10,6 +11,19 @@
             "name": "Tiger Woods",
             "email": "tiger@woods.com",
             "password": "woods"
+        },
+        {
+            "id": 3,
+            "name": "DB Dazzle",
+            "email": "DB@dazzle.com",
+            "password": "dazzle"
+        }
+    ],
+    "userFriends": [
+        {
+            "id": 1,
+            "userId": 1,
+            "friendId": 3
         }
     ],
     "courses": [
@@ -47,6 +61,7 @@
             "id": 1,
             "courseId": 1,
             "date": "3/03/2023",
+            "time": "1:00 pm",
             "message": "we played this",
             "confirmed": true
         },
@@ -54,11 +69,20 @@
             "id": 2,
             "courseId": 1,
             "date": "3/20/2023",
+            "time": "10:30 am",
             "message": "maybe we can play",
             "confirmed": false
+        },
+        {
+            "id": 3,
+            "courseId": 1,
+            "date": "3/15/2023",
+            "time": "9:45 am",
+            "message": "my future tee time",
+            "confirmed": true
         }
     ],
-    "matchUsers": [
+    "userMatches": [
         {
             "id": 1,
             "userId": 1,
@@ -86,6 +110,20 @@
             "matchId": 2,
             "totalStrokes": 0,
             "isInitiator": true
+        },
+        {
+            "id": 5,
+            "userId": 1,
+            "matchId": 3,
+            "totalStrokes": 0,
+            "isInitiator": true
+        },
+        {
+            "id": 6,
+            "userId": 2,
+            "matchId": 3,
+            "totalStrokes": 0,
+            "isInitiator": false
         }
     ],
     "matchUserHoleScores": [
