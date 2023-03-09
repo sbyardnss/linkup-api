@@ -1,11 +1,15 @@
 {
     "users": [
         {"id": 1,
-            "name": "Stephen Byard"
+            "name": "Stephen Byard",
+            "email": "stephen@byard.com",
+            "password": "byard"
         },
         {
             "id": 2,
-            "name": "Tiger Woods"
+            "name": "Tiger Woods",
+            "email": "tiger@woods.com",
+            "password": "woods"
         }
     ],
     "courses": [
@@ -13,7 +17,8 @@
             "id": 1,
             "name": "Two Rivers Golf Course",
             "address": "2235 Two Rivers Pkwy, Nashville, TN 37214",
-            "phoneNumber": "(615) 889-2675"
+            "phoneNumber": "(615) 889-2675",
+            "image": "n/a"
         }
     ],
     "courseHoles": [
