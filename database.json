@@ -47,9 +47,15 @@
     {
       "userId": 1,
       "friendId": 4,
-      "id": 2,
+      "id": 1,
       "confirmed": true
-    }
+    },
+    {
+        "userId": 4,
+        "friendId": 1,
+        "id": 2,
+        "confirmed": true
+      }
   ],
   "courses": [
     {
