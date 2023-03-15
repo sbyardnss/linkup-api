@@ -1,167 +1,637 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "name": "Stephen Byard",
-            "email": "stephen@byard.com",
-            "password": "byard"
-        },
-        {
-            "id": 2,
-            "name": "Tiger Woods",
-            "email": "tiger@woods.com",
-            "password": "woods"
-        },
-        {
-            "id": 3,
-            "name": "DB Dazzle",
-            "email": "DB@dazzle.com",
-            "password": "dazzle"
-        }
-    ],
-    "userFriends": [
-        {
-            "id": 1,
-            "userId": 1,
-            "friendId": 3
-        }
-    ],
-    "courses": [
-        {
-            "id": 1,
-            "name": "Two Rivers Golf Course",
-            "address": "2235 Two Rivers Pkwy, Nashville, TN 37214",
-            "phoneNumber": "(615) 889-2675",
-            "image": "n/a"
-        }
-    ],
-    "courseHoles": [
-        { "id": 1, "courseId": 1, "holeNumber": 1 },
-        { "id": 2, "courseId": 1, "holeNumber": 2 },
-        { "id": 3, "courseId": 1, "holeNumber": 3 },
-        { "id": 4, "courseId": 1, "holeNumber": 4 },
-        { "id": 5, "courseId": 1, "holeNumber": 5 },
-        { "id": 6, "courseId": 1, "holeNumber": 6 },
-        { "id": 7, "courseId": 1, "holeNumber": 7 },
-        { "id": 8, "courseId": 1, "holeNumber": 8 },
-        { "id": 9, "courseId": 1, "holeNumber": 9 },
-        { "id": 10, "courseId": 1, "holeNumber": 10 },
-        { "id": 11, "courseId": 1, "holeNumber": 11 },
-        { "id": 12, "courseId": 1, "holeNumber": 12 },
-        { "id": 13, "courseId": 1, "holeNumber": 13 },
-        { "id": 14, "courseId": 1, "holeNumber": 14 },
-        { "id": 15, "courseId": 1, "holeNumber": 15 },
-        { "id": 16, "courseId": 1, "holeNumber": 16 },
-        { "id": 17, "courseId": 1, "holeNumber": 17 },
-        { "id": 18, "courseId": 1, "holeNumber": 18 }
-        
-    ],
-    "matches": [
-        {
-            "id": 1,
-            "courseId": 1,
-            "date": "3/03/2023",
-            "time": "1:00 pm",
-            "message": "we played this",
-            "confirmed": true
-        },
-        {
-            "id": 2,
-            "courseId": 1,
-            "date": "3/20/2023",
-            "time": "10:30 am",
-            "message": "maybe we can play",
-            "confirmed": false
-        },
-        {
-            "id": 3,
-            "courseId": 1,
-            "date": "3/15/2023",
-            "time": "9:45 am",
-            "message": "my future tee time",
-            "confirmed": true
-        }
-    ],
-    "userMatches": [
-        {
-            "id": 1,
-            "userId": 1,
-            "matchId": 1,
-            "totalStrokes": 71,
-            "isInitiator": true
-        },
-        {
-            "id": 2,
-            "userId": 2,
-            "matchId": 1,
-            "totalStrokes": 86,
-            "isInitiator": false
-        },
-        {
-            "id": 3,
-            "userId": 1,
-            "matchId": 2,
-            "totalStrokes": 0,
-            "isInitiator": false
-        },
-        {
-            "id": 4,
-            "userId": 2,
-            "matchId": 2,
-            "totalStrokes": 0,
-            "isInitiator": true
-        },
-        {
-            "id": 5,
-            "userId": 1,
-            "matchId": 3,
-            "totalStrokes": 0,
-            "isInitiator": true
-        },
-        {
-            "id": 6,
-            "userId": 2,
-            "matchId": 3,
-            "totalStrokes": 0,
-            "isInitiator": false
-        }
-    ],
-    "matchUserHoleScores": [
-        { "id": 1, "matchUserId": 1, "strokes": 4, "courseHoleId": 1, "notes": "woah now" },
-        { "id": 2, "matchUserId": 1, "strokes": 3, "courseHoleId": 2, "notes": "" },
-        { "id": 3, "matchUserId": 1, "strokes": 3, "courseHoleId": 3, "notes": "" },
-        { "id": 4, "matchUserId": 1, "strokes": 3, "courseHoleId": 4, "notes": "" },
-        { "id": 5, "matchUserId": 1, "strokes": 4, "courseHoleId": 5, "notes": "" },
-        { "id": 6, "matchUserId": 1, "strokes": 4, "courseHoleId": 6, "notes": "" },
-        { "id": 7, "matchUserId": 1, "strokes": 4, "courseHoleId": 7, "notes": "" },
-        { "id": 8, "matchUserId": 1, "strokes": 6, "courseHoleId": 8, "notes": "bad" },
-        { "id": 9, "matchUserId": 1, "strokes": 4, "courseHoleId": 9, "notes": "" },
-        { "id": 10, "matchUserId": 1, "strokes": 4, "courseHoleId": 10, "notes": "" },
-        { "id": 11, "matchUserId": 1, "strokes": 4, "courseHoleId": 11, "notes": "" },
-        { "id": 12, "matchUserId": 1, "strokes": 4, "courseHoleId": 12, "notes": "" },
-        { "id": 13, "matchUserId": 1, "strokes": 4, "courseHoleId": 13, "notes": "" },
-        { "id": 14, "matchUserId": 1, "strokes": 4, "courseHoleId": 14, "notes": "" },
-        { "id": 15, "matchUserId": 1, "strokes": 4, "courseHoleId": 15, "notes": "try again" },
-        { "id": 16, "matchUserId": 1, "strokes": 4, "courseHoleId": 16, "notes": "" },
-        { "id": 17, "matchUserId": 1, "strokes": 4, "courseHoleId": 17, "notes": "" },
-        { "id": 18, "matchUserId": 1, "strokes": 4, "courseHoleId": 18, "notes": "" },
-        { "id": 19, "matchUserId": 2, "strokes": 4, "courseHoleId": 1, "notes": "im tiger" },
-        { "id": 20, "matchUserId": 2, "strokes": 3, "courseHoleId": 2, "notes": "" },
-        { "id": 21, "matchUserId": 2, "strokes": 3, "courseHoleId": 3, "notes": "" },
-        { "id": 22, "matchUserId": 2, "strokes": 3, "courseHoleId": 4, "notes": "" },
-        { "id": 23, "matchUserId": 2, "strokes": 4, "courseHoleId": 5, "notes": "" },
-        { "id": 24, "matchUserId": 2, "strokes": 10, "courseHoleId": 6, "notes": "easy there tiger" },
-        { "id": 25, "matchUserId": 2, "strokes": 4, "courseHoleId": 7, "notes": "" },
-        { "id": 26, "matchUserId": 2, "strokes": 6, "courseHoleId": 8, "notes": "" },
-        { "id": 27, "matchUserId": 2, "strokes": 7, "courseHoleId": 9, "notes": "" },
-        { "id": 28, "matchUserId": 2, "strokes": 4, "courseHoleId": 10, "notes": "" },
-        { "id": 29, "matchUserId": 2, "strokes": 4, "courseHoleId": 11, "notes": "" },
-        { "id": 30, "matchUserId": 2, "strokes": 4, "courseHoleId": 12, "notes": "" },
-        { "id": 31, "matchUserId": 2, "strokes": 4, "courseHoleId": 13, "notes": "" },
-        { "id": 32, "matchUserId": 2, "strokes": 6, "courseHoleId": 14, "notes": "" },
-        { "id": 33, "matchUserId": 2, "strokes": 4, "courseHoleId": 15, "notes": "" },
-        { "id": 34, "matchUserId": 2, "strokes": 8, "courseHoleId": 16, "notes": "what happened" },
-        { "id": 35, "matchUserId": 2, "strokes": 4, "courseHoleId": 17, "notes": "" },
-        { "id": 36, "matchUserId": 2, "strokes": 4, "courseHoleId": 18, "notes": "" }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "name": "Stephen Byard",
+      "email": "stephen@byard.com",
+      "password": "byard"
+    },
+    {
+      "id": 2,
+      "name": "Tiger Woods",
+      "email": "tiger@woods.com",
+      "password": "woods"
+    },
+    {
+      "id": 3,
+      "name": "DB Dazzle",
+      "email": "DB@dazzle.com",
+      "password": "dazzle"
+    },
+    {
+      "email": "josh@ryner.com",
+      "name": "josh ryner",
+      "password": "dummy",
+      "id": 4
+    },
+    {
+      "email": "dan@brown.com",
+      "name": "dan brown",
+      "password": "dan",
+      "id": 5
+    },
+    {
+      "email": "bill@phillips.com",
+      "name": "bill phillips",
+      "password": "bill",
+      "id": 6
+    },
+    {
+      "email": "new@member.com",
+      "name": "new member",
+      "password": "new",
+      "id": 7
+    }
+  ],
+  "userFriends": [
+    {
+      "userId": 1,
+      "friendId": 4,
+      "id": 2,
+      "confirmed": true
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "name": "Two Rivers Golf Course",
+      "address": "2235 Two Rivers Pkwy, Nashville, TN 37214",
+      "phoneNumber": "(615) 889-2675",
+      "image": ""
+    },
+    {
+      "id": 2,
+      "name": "Riverside Golf Course",
+      "address": "640 Old Hickory Blvd, Old Hickory, TN 37138",
+      "phoneNumber": "(615) 847-5074",
+      "image": ""
+    },
+    {
+      "name": "VinnyLinks",
+      "address": "2009 Sevier St, Nashville, TN 37206",
+      "phoneNumber": "(629) 888-9621",
+      "id": 3
+    },
+    {
+      "name": "Ted Rhodes Golf Course",
+      "address": "1901 Ed Temple Blvd, Nashville, TN 37208",
+      "phoneNumber": "(615) 862-8463",
+      "id": 4
+    },
+    {
+      "name": "Country Hills Golf Club",
+      "address": "1501 Saundersville Rd, Hendersonville, TN 37075",
+      "phoneNumber": "(615) 824-1100",
+      "id": 5
+    },
+    {
+      "name": "Shelby Golf Course",
+      "address": "2021 Fatherland St, Nashville, TN 37206",
+      "phoneNumber": "(615) 862-8474",
+      "id": 6
+    }
+  ],
+  "courseHoles": [
+    {
+      "id": 1,
+      "courseId": 1,
+      "holeNumber": 1
+    },
+    {
+      "id": 2,
+      "courseId": 1,
+      "holeNumber": 2
+    },
+    {
+      "id": 3,
+      "courseId": 1,
+      "holeNumber": 3
+    },
+    {
+      "id": 4,
+      "courseId": 1,
+      "holeNumber": 4
+    },
+    {
+      "id": 5,
+      "courseId": 1,
+      "holeNumber": 5
+    },
+    {
+      "id": 6,
+      "courseId": 1,
+      "holeNumber": 6
+    },
+    {
+      "id": 7,
+      "courseId": 1,
+      "holeNumber": 7
+    },
+    {
+      "id": 8,
+      "courseId": 1,
+      "holeNumber": 8
+    },
+    {
+      "id": 9,
+      "courseId": 1,
+      "holeNumber": 9
+    },
+    {
+      "id": 10,
+      "courseId": 1,
+      "holeNumber": 10
+    },
+    {
+      "id": 11,
+      "courseId": 1,
+      "holeNumber": 11
+    },
+    {
+      "id": 12,
+      "courseId": 1,
+      "holeNumber": 12
+    },
+    {
+      "id": 13,
+      "courseId": 1,
+      "holeNumber": 13
+    },
+    {
+      "id": 14,
+      "courseId": 1,
+      "holeNumber": 14
+    },
+    {
+      "id": 15,
+      "courseId": 1,
+      "holeNumber": 15
+    },
+    {
+      "id": 16,
+      "courseId": 1,
+      "holeNumber": 16
+    },
+    {
+      "id": 17,
+      "courseId": 1,
+      "holeNumber": 17
+    },
+    {
+      "id": 18,
+      "courseId": 1,
+      "holeNumber": 18
+    }
+  ],
+  "matches": [
+    {
+      "id": 1,
+      "courseId": 1,
+      "date": "03/02/2023",
+      "time": "1:00 pm",
+      "message": "",
+      "confirmed": true
+    },
+    {
+      "id": 2,
+      "courseId": 1,
+      "date": "03/20/2023",
+      "time": "10:30 am",
+      "message": "maybe we can play",
+      "confirmed": false
+    },
+    {
+      "id": 3,
+      "courseId": 1,
+      "date": "03/15/2023",
+      "time": "9:45 am",
+      "message": "my future tee time",
+      "confirmed": true
+    },
+    {
+      "courseId": 2,
+      "date": "03/19/2023",
+      "time": "1:00 pm",
+      "message": "lets do it",
+      "confirmed": false,
+      "id": 4
+    },
+    {
+      "courseId": 3,
+      "date": "03/20/2023",
+      "time": "4:00 pm",
+      "message": "test past creation",
+      "confirmed": false,
+      "id": 6
+    },
+    {
+      "courseId": 1,
+      "date": "03/29/2023",
+      "time": "1:00 pm",
+      "message": "fugg it",
+      "confirmed": false,
+      "id": 7
+    },
+    {
+      "courseId": 2,
+      "date": "03/30/2023",
+      "time": "2:00 pm",
+      "message": "",
+      "confirmed": false,
+      "id": 8
+    },
+    {
+      "courseId": 5,
+      "date": "03/17/2023",
+      "time": "2:00 pm",
+      "message": "",
+      "confirmed": false,
+      "id": 9
+    },
+    {
+      "courseId": 4,
+      "date": "03/17/2023",
+      "time": "3:00 pm",
+      "message": "",
+      "confirmed": false,
+      "id": 10
+    },
+    {
+      "courseId": 2,
+      "date": "03/17/2023",
+      "time": "2:00 pm",
+      "message": "",
+      "confirmed": false,
+      "id": 11
+    },
+    {
+      "courseId": 6,
+      "date": "03/18/2023",
+      "time": "4:00 pm",
+      "message": "",
+      "confirmed": false,
+      "id": 12
+    }
+  ],
+  "userMatches": [
+    {
+      "id": 1,
+      "userId": 1,
+      "matchId": 1,
+      "totalStrokes": 71,
+      "isInitiator": true
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "matchId": 1,
+      "totalStrokes": 86,
+      "isInitiator": false
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "matchId": 2,
+      "totalStrokes": 0,
+      "isInitiator": true
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "matchId": 3,
+      "totalStrokes": 0,
+      "isInitiator": true
+    },
+    {
+      "matchId": 4,
+      "userId": 1,
+      "isInitiator": true,
+      "totalStrokes": 0,
+      "id": 7
+    },
+    {
+      "matchId": 1,
+      "userId": 5,
+      "isInitiator": false,
+      "totalStrokes": 0,
+      "id": 8
+    },
+    {
+      "matchId": 3,
+      "userId": 5,
+      "isInitiator": false,
+      "totalStrokes": 0,
+      "id": 9
+    },
+    {
+      "matchId": 6,
+      "userId": 1,
+      "isInitiator": true,
+      "totalStrokes": 0,
+      "id": 11
+    },
+    {
+      "matchId": 7,
+      "userId": 2,
+      "isInitiator": true,
+      "totalStrokes": 0,
+      "id": 12
+    },
+    {
+      "matchId": 3,
+      "userId": 2,
+      "isInitiator": false,
+      "totalStrokes": 0,
+      "id": 13
+    },
+    {
+      "matchId": 6,
+      "userId": 2,
+      "isInitiator": false,
+      "totalStrokes": 0,
+      "id": 14
+    },
+    {
+      "matchId": 8,
+      "userId": 6,
+      "isInitiator": true,
+      "totalStrokes": 0,
+      "id": 15
+    },
+    {
+      "matchId": 11,
+      "userId": 1,
+      "isInitiator": true,
+      "totalStrokes": 0,
+      "id": 16
+    },
+    {
+      "matchId": 12,
+      "userId": 3,
+      "isInitiator": true,
+      "totalStrokes": 0,
+      "id": 17
+    },
+    {
+      "matchId": 2,
+      "userId": 1,
+      "isInitiator": false,
+      "totalStrokes": 0,
+      "id": 18
+    }
+  ],
+  "matchUserHoleScores": [
+    {
+      "id": 1,
+      "matchUserId": 1,
+      "strokes": 4,
+      "courseHoleId": 1,
+      "notes": "woah now"
+    },
+    {
+      "id": 2,
+      "matchUserId": 1,
+      "strokes": 3,
+      "courseHoleId": 2,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "matchUserId": 1,
+      "strokes": 3,
+      "courseHoleId": 3,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "matchUserId": 1,
+      "strokes": 3,
+      "courseHoleId": 4,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "matchUserId": 1,
+      "strokes": 4,
+      "courseHoleId": 5,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "matchUserId": 1,
+      "strokes": 4,
+      "courseHoleId": 6,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "matchUserId": 1,
+      "strokes": 4,
+      "courseHoleId": 7,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "matchUserId": 1,
+      "strokes": 6,
+      "courseHoleId": 8,
+      "notes": "bad"
+    },
+    {
+      "id": 9,
+      "matchUserId": 1,
+      "strokes": 4,
+      "courseHoleId": 9,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "matchUserId": 1,
+      "strokes": 4,
+      "courseHoleId": 10,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "matchUserId": 1,
+      "strokes": 4,
+      "courseHoleId": 11,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "matchUserId": 1,
+      "strokes": 4,
+      "courseHoleId": 12,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "matchUserId": 1,
+      "strokes": 4,
+      "courseHoleId": 13,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "matchUserId": 1,
+      "strokes": 4,
+      "courseHoleId": 14,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "matchUserId": 1,
+      "strokes": 4,
+      "courseHoleId": 15,
+      "notes": "try again"
+    },
+    {
+      "id": 16,
+      "matchUserId": 1,
+      "strokes": 4,
+      "courseHoleId": 16,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "matchUserId": 1,
+      "strokes": 4,
+      "courseHoleId": 17,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "matchUserId": 1,
+      "strokes": 4,
+      "courseHoleId": 18,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "matchUserId": 2,
+      "strokes": 4,
+      "courseHoleId": 1,
+      "notes": "im tiger"
+    },
+    {
+      "id": 20,
+      "matchUserId": 2,
+      "strokes": 3,
+      "courseHoleId": 2,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "matchUserId": 2,
+      "strokes": 3,
+      "courseHoleId": 3,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "matchUserId": 2,
+      "strokes": 3,
+      "courseHoleId": 4,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "matchUserId": 2,
+      "strokes": 4,
+      "courseHoleId": 5,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "matchUserId": 2,
+      "strokes": 10,
+      "courseHoleId": 6,
+      "notes": "easy there tiger"
+    },
+    {
+      "id": 25,
+      "matchUserId": 2,
+      "strokes": 4,
+      "courseHoleId": 7,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "matchUserId": 2,
+      "strokes": 6,
+      "courseHoleId": 8,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "matchUserId": 2,
+      "strokes": 7,
+      "courseHoleId": 9,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "matchUserId": 2,
+      "strokes": 4,
+      "courseHoleId": 10,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "matchUserId": 2,
+      "strokes": 4,
+      "courseHoleId": 11,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "matchUserId": 2,
+      "strokes": 4,
+      "courseHoleId": 12,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "matchUserId": 2,
+      "strokes": 4,
+      "courseHoleId": 13,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "matchUserId": 2,
+      "strokes": 6,
+      "courseHoleId": 14,
+      "notes": ""
+    },
+    {
+      "id": 33,
+      "matchUserId": 2,
+      "strokes": 4,
+      "courseHoleId": 15,
+      "notes": ""
+    },
+    {
+      "id": 34,
+      "matchUserId": 2,
+      "strokes": 8,
+      "courseHoleId": 16,
+      "notes": "what happened"
+    },
+    {
+      "id": 35,
+      "matchUserId": 2,
+      "strokes": 4,
+      "courseHoleId": 17,
+      "notes": ""
+    },
+    {
+      "id": 36,
+      "matchUserId": 2,
+      "strokes": 4,
+      "courseHoleId": 18,
+      "notes": ""
+    }
+  ]
 }
