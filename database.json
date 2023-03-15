@@ -45,17 +45,31 @@
   ],
   "userFriends": [
     {
-      "userId": 1,
-      "friendId": 4,
-      "id": 1,
+      "userId": 4,
+      "friendId": 1,
+      "id": 2,
       "confirmed": true
     },
     {
-        "userId": 4,
-        "friendId": 1,
-        "id": 2,
-        "confirmed": true
-      }
+      "userId": 1,
+      "friendId": 3,
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "friendId": 4,
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "friendId": 5,
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "friendId": 7,
+      "id": 8
+    }
   ],
   "courses": [
     {
@@ -277,6 +291,22 @@
       "message": "",
       "confirmed": false,
       "id": 12
+    },
+    {
+      "courseId": 3,
+      "date": "03/27/2023",
+      "time": "10:00 am",
+      "message": "",
+      "confirmed": false,
+      "id": 13
+    },
+    {
+      "courseId": 1,
+      "date": "03/17/2023",
+      "time": "3:00 pm",
+      "message": "",
+      "confirmed": false,
+      "id": 14
     }
   ],
   "userMatches": [
@@ -344,20 +374,6 @@
       "id": 12
     },
     {
-      "matchId": 3,
-      "userId": 2,
-      "isInitiator": false,
-      "totalStrokes": 0,
-      "id": 13
-    },
-    {
-      "matchId": 6,
-      "userId": 2,
-      "isInitiator": false,
-      "totalStrokes": 0,
-      "id": 14
-    },
-    {
       "matchId": 8,
       "userId": 6,
       "isInitiator": true,
@@ -379,11 +395,18 @@
       "id": 17
     },
     {
-      "matchId": 2,
-      "userId": 1,
-      "isInitiator": false,
+      "matchId": 13,
+      "userId": 4,
+      "isInitiator": true,
       "totalStrokes": 0,
-      "id": 18
+      "id": 19
+    },
+    {
+      "matchId": 14,
+      "userId": 4,
+      "isInitiator": true,
+      "totalStrokes": 0,
+      "id": 20
     }
   ],
   "matchUserHoleScores": [
