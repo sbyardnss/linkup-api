@@ -69,6 +69,16 @@
       "userId": 1,
       "friendId": 7,
       "id": 8
+    },
+    {
+      "userId": 2,
+      "friendId": 4,
+      "id": 9
+    },
+    {
+      "userId": 2,
+      "friendId": 1,
+      "id": 10
     }
   ],
   "courses": [
