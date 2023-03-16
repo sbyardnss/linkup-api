@@ -79,6 +79,11 @@
       "userId": 2,
       "friendId": 1,
       "id": 10
+    },
+    {
+      "userId": 5,
+      "friendId": 1,
+      "id": 11
     }
   ],
   "courses": [
@@ -231,14 +236,6 @@
       "confirmed": false
     },
     {
-      "id": 3,
-      "courseId": 1,
-      "date": "03/15/2023",
-      "time": "9:45 am",
-      "message": "my future tee time",
-      "confirmed": true
-    },
-    {
       "courseId": 2,
       "date": "03/19/2023",
       "time": "1:00 pm",
@@ -303,20 +300,20 @@
       "id": 12
     },
     {
-      "courseId": 3,
-      "date": "03/27/2023",
-      "time": "10:00 am",
-      "message": "",
-      "confirmed": false,
-      "id": 13
-    },
-    {
       "courseId": 1,
       "date": "03/17/2023",
       "time": "3:00 pm",
       "message": "",
       "confirmed": false,
       "id": 14
+    },
+    {
+      "courseId": 3,
+      "date": "03/27/2023",
+      "time": "10:00 am",
+      "message": "",
+      "confirmed": false,
+      "id": 15
     }
   ],
   "userMatches": [
@@ -324,104 +321,178 @@
       "id": 1,
       "userId": 1,
       "matchId": 1,
-      "totalStrokes": 71,
+      "scorecardId": 1,
       "isInitiator": true
     },
     {
       "id": 2,
       "userId": 2,
       "matchId": 1,
-      "totalStrokes": 86,
+      "scorecardId": 2,
       "isInitiator": false
     },
     {
       "id": 4,
       "userId": 2,
       "matchId": 2,
-      "totalStrokes": 0,
-      "isInitiator": true
-    },
-    {
-      "id": 5,
-      "userId": 1,
-      "matchId": 3,
-      "totalStrokes": 0,
+      "scorecardId": null,
       "isInitiator": true
     },
     {
       "matchId": 4,
       "userId": 1,
       "isInitiator": true,
-      "totalStrokes": 0,
+      "scorecardId": null,
       "id": 7
-    },
-    {
-      "matchId": 1,
-      "userId": 5,
-      "isInitiator": false,
-      "totalStrokes": 0,
-      "id": 8
-    },
-    {
-      "matchId": 3,
-      "userId": 5,
-      "isInitiator": false,
-      "totalStrokes": 0,
-      "id": 9
     },
     {
       "matchId": 6,
       "userId": 1,
       "isInitiator": true,
-      "totalStrokes": 0,
+      "scorecardId": null,
       "id": 11
     },
     {
       "matchId": 7,
       "userId": 2,
       "isInitiator": true,
-      "totalStrokes": 0,
+      "scorecardId": null,
       "id": 12
     },
     {
       "matchId": 8,
       "userId": 6,
       "isInitiator": true,
-      "totalStrokes": 0,
+      "scorecardId": null,
       "id": 15
     },
     {
       "matchId": 11,
       "userId": 1,
       "isInitiator": true,
-      "totalStrokes": 0,
+      "scorecardId": null,
       "id": 16
     },
     {
       "matchId": 12,
       "userId": 3,
       "isInitiator": true,
-      "totalStrokes": 0,
+      "scorecardId": null,
       "id": 17
-    },
-    {
-      "matchId": 13,
-      "userId": 4,
-      "isInitiator": true,
-      "totalStrokes": 0,
-      "id": 19
     },
     {
       "matchId": 14,
       "userId": 4,
       "isInitiator": true,
-      "totalStrokes": 0,
+      "scorecardId": null,
       "id": 20
+    },
+    {
+      "matchId": 11,
+      "userId": 2,
+      "isInitiator": false,
+      "totalStrokes": 0,
+      "id": 21
+    },
+    {
+      "matchId": 15,
+      "userId": 4,
+      "isInitiator": true,
+      "totalStrokes": 0,
+      "id": 22
+    },
+    {
+      "matchId": 14,
+      "userId": 1,
+      "isInitiator": false,
+      "totalStrokes": 0,
+      "id": 23
+    }
+  ],
+  "scorecards": [
+    {
+      "id": 1,
+      "oneStrokes": 4,
+      "oneNotes": "woah now",
+      "2strokes": 3,
+      "2notes": "",
+      "3strokes": 3,
+      "3notes": "",
+      "4strokes": 3,
+      "4notes": "",
+      "5strokes": 4,
+      "5notes": "",
+      "6strokes": 4,
+      "6notes": "",
+      "7strokes": 4,
+      "7notes": "",
+      "8strokes": 6,
+      "8notes": "bad",
+      "9strokes": 4,
+      "9notes": "",
+      "10strokes": 4,
+      "10notes": "",
+      "11strokes": 4,
+      "11notes": "",
+      "12strokes": 4,
+      "12notes": "",
+      "13strokes": 4,
+      "13notes": "",
+      "14strokes": 4,
+      "14notes": "",
+      "15strokes": 4,
+      "15notes": "try again",
+      "16strokes": 4,
+      "16notes": "",
+      "17strokes": 4,
+      "17notes": "",
+      "18strokes": 4,
+      "18notes": ""
+    },
+    {
+      "id": 2,
+      "1strokes": 4,
+      "1notes": "im tiger",
+      "2strokes": 3,
+      "2notes": "",
+      "3strokes": 3,
+      "3notes": "",
+      "4strokes": 3,
+      "4notes": "",
+      "5strokes": 4,
+      "5notes": "",
+      "6strokes": 10,
+      "6notes": "easy there tiger",
+      "7strokes": 4,
+      "7notes": "",
+      "8strokes": 6,
+      "8notes": "",
+      "9strokes": 7,
+      "9notes": "",
+      "10strokes": 4,
+      "10notes": "",
+      "11strokes": 4,
+      "11notes": "",
+      "12strokes": 4,
+      "12notes": "",
+      "13strokes": 4,
+      "13notes": "",
+      "14strokes": 6,
+      "14notes": "",
+      "15strokes": 4,
+      "15notes": "",
+      "16strokes": 8,
+      "16notes": "what happened",
+      "17strokes": 4,
+      "17notes": "",
+      "18strokes": 4,
+      "18notes": ""
     }
   ],
   "matchUserHoleScores": [
     {
       "id": 1,
+      "scoreCardId": 1,
       "matchUserId": 1,
       "strokes": 4,
       "courseHoleId": 1,
@@ -429,6 +500,7 @@
     },
     {
       "id": 2,
+      "scoreCardId": 1,
       "matchUserId": 1,
       "strokes": 3,
       "courseHoleId": 2,
@@ -436,6 +508,7 @@
     },
     {
       "id": 3,
+      "scoreCardId": 1,
       "matchUserId": 1,
       "strokes": 3,
       "courseHoleId": 3,
@@ -443,6 +516,7 @@
     },
     {
       "id": 4,
+      "scoreCardId": 1,
       "matchUserId": 1,
       "strokes": 3,
       "courseHoleId": 4,
@@ -450,6 +524,7 @@
     },
     {
       "id": 5,
+      "scoreCardId": 1,
       "matchUserId": 1,
       "strokes": 4,
       "courseHoleId": 5,
@@ -457,6 +532,7 @@
     },
     {
       "id": 6,
+      "scoreCardId": 1,
       "matchUserId": 1,
       "strokes": 4,
       "courseHoleId": 6,
@@ -464,6 +540,7 @@
     },
     {
       "id": 7,
+      "scoreCardId": 1,
       "matchUserId": 1,
       "strokes": 4,
       "courseHoleId": 7,
@@ -471,6 +548,7 @@
     },
     {
       "id": 8,
+      "scoreCardId": 1,
       "matchUserId": 1,
       "strokes": 6,
       "courseHoleId": 8,
@@ -478,6 +556,7 @@
     },
     {
       "id": 9,
+      "scoreCardId": 1,
       "matchUserId": 1,
       "strokes": 4,
       "courseHoleId": 9,
@@ -485,6 +564,7 @@
     },
     {
       "id": 10,
+      "scoreCardId": 1,
       "matchUserId": 1,
       "strokes": 4,
       "courseHoleId": 10,
@@ -492,6 +572,7 @@
     },
     {
       "id": 11,
+      "scoreCardId": 1,
       "matchUserId": 1,
       "strokes": 4,
       "courseHoleId": 11,
@@ -499,6 +580,7 @@
     },
     {
       "id": 12,
+      "scoreCardId": 1,
       "matchUserId": 1,
       "strokes": 4,
       "courseHoleId": 12,
@@ -506,6 +588,7 @@
     },
     {
       "id": 13,
+      "scoreCardId": 1,
       "matchUserId": 1,
       "strokes": 4,
       "courseHoleId": 13,
@@ -513,6 +596,7 @@
     },
     {
       "id": 14,
+      "scoreCardId": 1,
       "matchUserId": 1,
       "strokes": 4,
       "courseHoleId": 14,
@@ -520,6 +604,7 @@
     },
     {
       "id": 15,
+      "scoreCardId": 1,
       "matchUserId": 1,
       "strokes": 4,
       "courseHoleId": 15,
@@ -527,6 +612,7 @@
     },
     {
       "id": 16,
+      "scoreCardId": 1,
       "matchUserId": 1,
       "strokes": 4,
       "courseHoleId": 16,
@@ -534,6 +620,7 @@
     },
     {
       "id": 17,
+      "scoreCardId": 1,
       "matchUserId": 1,
       "strokes": 4,
       "courseHoleId": 17,
@@ -541,6 +628,7 @@
     },
     {
       "id": 18,
+      "scoreCardId": 1,
       "matchUserId": 1,
       "strokes": 4,
       "courseHoleId": 18,
@@ -548,6 +636,7 @@
     },
     {
       "id": 19,
+      "scoreCardId": 2,
       "matchUserId": 2,
       "strokes": 4,
       "courseHoleId": 1,
@@ -555,6 +644,7 @@
     },
     {
       "id": 20,
+      "scoreCardId": 2,
       "matchUserId": 2,
       "strokes": 3,
       "courseHoleId": 2,
@@ -562,6 +652,7 @@
     },
     {
       "id": 21,
+      "scoreCardId": 2,
       "matchUserId": 2,
       "strokes": 3,
       "courseHoleId": 3,
@@ -569,6 +660,7 @@
     },
     {
       "id": 22,
+      "scoreCardId": 2,
       "matchUserId": 2,
       "strokes": 3,
       "courseHoleId": 4,
@@ -576,6 +668,7 @@
     },
     {
       "id": 23,
+      "scoreCardId": 2,
       "matchUserId": 2,
       "strokes": 4,
       "courseHoleId": 5,
@@ -583,6 +676,7 @@
     },
     {
       "id": 24,
+      "scoreCardId": 2,
       "matchUserId": 2,
       "strokes": 10,
       "courseHoleId": 6,
@@ -590,6 +684,7 @@
     },
     {
       "id": 25,
+      "scoreCardId": 2,
       "matchUserId": 2,
       "strokes": 4,
       "courseHoleId": 7,
@@ -597,6 +692,7 @@
     },
     {
       "id": 26,
+      "scoreCardId": 2,
       "matchUserId": 2,
       "strokes": 6,
       "courseHoleId": 8,
@@ -604,6 +700,7 @@
     },
     {
       "id": 27,
+      "scoreCardId": 2,
       "matchUserId": 2,
       "strokes": 7,
       "courseHoleId": 9,
@@ -611,6 +708,7 @@
     },
     {
       "id": 28,
+      "scoreCardId": 2,
       "matchUserId": 2,
       "strokes": 4,
       "courseHoleId": 10,
@@ -618,6 +716,7 @@
     },
     {
       "id": 29,
+      "scoreCardId": 2,
       "matchUserId": 2,
       "strokes": 4,
       "courseHoleId": 11,
@@ -625,6 +724,7 @@
     },
     {
       "id": 30,
+      "scoreCardId": 2,
       "matchUserId": 2,
       "strokes": 4,
       "courseHoleId": 12,
@@ -632,6 +732,7 @@
     },
     {
       "id": 31,
+      "scoreCardId": 2,
       "matchUserId": 2,
       "strokes": 4,
       "courseHoleId": 13,
@@ -639,6 +740,7 @@
     },
     {
       "id": 32,
+      "scoreCardId": 2,
       "matchUserId": 2,
       "strokes": 6,
       "courseHoleId": 14,
@@ -646,6 +748,7 @@
     },
     {
       "id": 33,
+      "scoreCardId": 2,
       "matchUserId": 2,
       "strokes": 4,
       "courseHoleId": 15,
@@ -653,6 +756,7 @@
     },
     {
       "id": 34,
+      "scoreCardId": 2,
       "matchUserId": 2,
       "strokes": 8,
       "courseHoleId": 16,
@@ -660,6 +764,7 @@
     },
     {
       "id": 35,
+      "scoreCardId": 2,
       "matchUserId": 2,
       "strokes": 4,
       "courseHoleId": 17,
@@ -667,6 +772,7 @@
     },
     {
       "id": 36,
+      "scoreCardId": 2,
       "matchUserId": 2,
       "strokes": 4,
       "courseHoleId": 18,
