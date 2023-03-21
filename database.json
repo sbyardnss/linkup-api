@@ -92,37 +92,41 @@
       "name": "Two Rivers Golf Course",
       "address": "2235 Two Rivers Pkwy, Nashville, TN 37214",
       "phoneNumber": "(615) 889-2675",
-      "image": ""
+      "url": "https://www.nashville.gov/departments/parks/golf-courses/two-rivers-golf-course",
     },
     {
       "id": 2,
       "name": "Riverside Golf Course",
       "address": "640 Old Hickory Blvd, Old Hickory, TN 37138",
       "phoneNumber": "(615) 847-5074",
-      "image": ""
+      "url": "https://riversidegolflinks.com/",
     },
     {
       "name": "VinnyLinks",
       "address": "2009 Sevier St, Nashville, TN 37206",
       "phoneNumber": "(629) 888-9621",
+      "url": "https://www.nashville.gov/departments/parks/golf-courses/vinnylinks-golf-course",
       "id": 3
     },
     {
       "name": "Ted Rhodes Golf Course",
       "address": "1901 Ed Temple Blvd, Nashville, TN 37208",
       "phoneNumber": "(615) 862-8463",
+      "url": "https://www.nashville.gov/departments/parks/golf-courses/ted-rhodes-golf-course",
       "id": 4
     },
     {
       "name": "Country Hills Golf Club",
       "address": "1501 Saundersville Rd, Hendersonville, TN 37075",
       "phoneNumber": "(615) 824-1100",
+      "url": "https://chillsgc.com/",
       "id": 5
     },
     {
       "name": "Shelby Golf Course",
       "address": "2021 Fatherland St, Nashville, TN 37206",
       "phoneNumber": "(615) 862-8474",
+      "url": "https://www.nashville.gov/departments/parks/golf-courses/shelby-golf-course",
       "id": 6
     }
   ],
@@ -233,7 +237,7 @@
       "date": "03/20/2023",
       "time": "10:30 am",
       "message": "maybe we can play",
-      "confirmed": false
+      "confirmed": true
     },
     {
       "courseId": 2,
@@ -256,7 +260,7 @@
       "date": "03/29/2023",
       "time": "1:00 pm",
       "message": "fugg it",
-      "confirmed": false,
+      "confirmed": true,
       "id": 7
     },
     {
@@ -284,19 +288,11 @@
       "id": 10
     },
     {
-      "courseId": 2,
-      "date": "03/17/2023",
-      "time": "2:00 pm",
-      "message": "",
-      "confirmed": false,
-      "id": 11
-    },
-    {
       "courseId": 6,
       "date": "03/18/2023",
       "time": "4:00 pm",
       "message": "",
-      "confirmed": false,
+      "confirmed": true,
       "id": 12
     },
     {
@@ -304,7 +300,7 @@
       "date": "03/17/2023",
       "time": "3:00 pm",
       "message": "",
-      "confirmed": false,
+      "confirmed": true,
       "id": 14
     },
     {
@@ -314,6 +310,14 @@
       "message": "",
       "confirmed": false,
       "id": 15
+    },
+    {
+      "courseId": 2,
+      "date": "03/25/2023",
+      "time": "12:00 am",
+      "message": "",
+      "confirmed": false,
+      "id": 16
     }
   ],
   "userMatches": [
@@ -367,13 +371,6 @@
       "id": 15
     },
     {
-      "matchId": 11,
-      "userId": 1,
-      "isInitiator": true,
-      "scorecardId": null,
-      "id": 16
-    },
-    {
       "matchId": 12,
       "userId": 3,
       "isInitiator": true,
@@ -388,13 +385,6 @@
       "id": 20
     },
     {
-      "matchId": 11,
-      "userId": 2,
-      "isInitiator": false,
-      "totalStrokes": 0,
-      "id": 21
-    },
-    {
       "matchId": 15,
       "userId": 4,
       "isInitiator": true,
@@ -407,6 +397,34 @@
       "isInitiator": false,
       "totalStrokes": 0,
       "id": 23
+    },
+    {
+      "matchId": 12,
+      "userId": 1,
+      "isInitiator": false,
+      "totalStrokes": 0,
+      "id": 24
+    },
+    {
+      "matchId": 7,
+      "userId": 1,
+      "isInitiator": false,
+      "totalStrokes": 0,
+      "id": 27
+    },
+    {
+      "matchId": 2,
+      "userId": 1,
+      "isInitiator": false,
+      "totalStrokes": 0,
+      "id": 28
+    },
+    {
+      "matchId": 16,
+      "userId": 1,
+      "isInitiator": true,
+      "totalStrokes": 0,
+      "id": 29
     }
   ],
   "scorecards": [
@@ -777,6 +795,34 @@
       "strokes": 4,
       "courseHoleId": 18,
       "notes": ""
+    },
+    {
+      "matchUserId": null,
+      "strokes": 5,
+      "courseHoleId": 1,
+      "notes": "none",
+      "id": 37
+    },
+    {
+      "matchUserId": 27,
+      "strokes": 5,
+      "courseHoleId": 1,
+      "notes": "none",
+      "id": 38
+    },
+    {
+      "matchUserId": 12,
+      "strokes": 9,
+      "courseHoleId": 2,
+      "notes": "terrible",
+      "id": 39
+    },
+    {
+      "matchUserId": 12,
+      "strokes": 3,
+      "courseHoleId": 3,
+      "notes": "better",
+      "id": 40
     }
   ]
 }
