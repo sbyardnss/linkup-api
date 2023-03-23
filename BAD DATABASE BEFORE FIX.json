@@ -51,26 +51,6 @@
       "confirmed": true
     },
     {
-      "userId": 1,
-      "friendId": 3,
-      "id": 3
-    },
-    {
-      "userId": 1,
-      "friendId": 4,
-      "id": 4
-    },
-    {
-      "userId": 1,
-      "friendId": 5,
-      "id": 7
-    },
-    {
-      "userId": 1,
-      "friendId": 7,
-      "id": 8
-    },
-    {
       "userId": 2,
       "friendId": 4,
       "id": 9
@@ -87,8 +67,23 @@
     },
     {
       "userId": 1,
-      "friendId": 6,
-      "id": 12
+      "friendId": 3,
+      "id": 13
+    },
+    {
+      "userId": 1,
+      "friendId": 5,
+      "id": 14
+    },
+    {
+      "userId": 1,
+      "friendId": 2,
+      "id": 15
+    },
+    {
+      "userId": 1,
+      "friendId": 4,
+      "id": 16
     }
   ],
   "courses": [
@@ -293,14 +288,6 @@
       "id": 10
     },
     {
-      "courseId": 6,
-      "date": "03/18/2023",
-      "time": "4:00 pm",
-      "message": "",
-      "confirmed": true,
-      "id": 12
-    },
-    {
       "courseId": 1,
       "date": "03/17/2023",
       "time": "3:00 pm",
@@ -330,63 +317,48 @@
       "id": 1,
       "userId": 1,
       "matchId": 1,
-      "scorecardId": 1,
       "isInitiator": true
     },
     {
       "id": 2,
       "userId": 2,
       "matchId": 1,
-      "scorecardId": 2,
       "isInitiator": false
     },
     {
       "id": 4,
       "userId": 2,
       "matchId": 2,
-      "scorecardId": null,
       "isInitiator": true
     },
     {
       "matchId": 4,
       "userId": 1,
       "isInitiator": true,
-      "scorecardId": null,
       "id": 7
     },
     {
       "matchId": 6,
       "userId": 1,
       "isInitiator": true,
-      "scorecardId": null,
       "id": 11
     },
     {
       "matchId": 7,
       "userId": 2,
       "isInitiator": true,
-      "scorecardId": null,
       "id": 12
     },
     {
       "matchId": 8,
       "userId": 6,
       "isInitiator": true,
-      "scorecardId": null,
       "id": 15
-    },
-    {
-      "matchId": 12,
-      "userId": 3,
-      "isInitiator": true,
-      "scorecardId": null,
-      "id": 17
     },
     {
       "matchId": 14,
       "userId": 4,
       "isInitiator": true,
-      "scorecardId": null,
       "id": 20
     },
     {
@@ -402,20 +374,6 @@
       "isInitiator": false,
       "totalStrokes": 0,
       "id": 23
-    },
-    {
-      "matchId": 12,
-      "userId": 1,
-      "isInitiator": false,
-      "totalStrokes": 0,
-      "id": 24
-    },
-    {
-      "matchId": 7,
-      "userId": 1,
-      "isInitiator": false,
-      "totalStrokes": 0,
-      "id": 27
     },
     {
       "matchId": 2,
@@ -526,336 +484,5 @@
       "18notes": ""
     }
   ],
-  "matchUserHoleScores": [
-    {
-      "id": 1,
-      "scoreCardId": 1,
-      "matchUserId": 1,
-      "strokes": 4,
-      "courseHoleId": 1,
-      "notes": "woah now"
-    },
-    {
-      "id": 2,
-      "scoreCardId": 1,
-      "matchUserId": 1,
-      "strokes": 3,
-      "courseHoleId": 2,
-      "notes": ""
-    },
-    {
-      "id": 3,
-      "scoreCardId": 1,
-      "matchUserId": 1,
-      "strokes": 3,
-      "courseHoleId": 3,
-      "notes": ""
-    },
-    {
-      "id": 4,
-      "scoreCardId": 1,
-      "matchUserId": 1,
-      "strokes": 3,
-      "courseHoleId": 4,
-      "notes": ""
-    },
-    {
-      "id": 5,
-      "scoreCardId": 1,
-      "matchUserId": 1,
-      "strokes": 4,
-      "courseHoleId": 5,
-      "notes": ""
-    },
-    {
-      "id": 6,
-      "scoreCardId": 1,
-      "matchUserId": 1,
-      "strokes": 4,
-      "courseHoleId": 6,
-      "notes": ""
-    },
-    {
-      "id": 7,
-      "scoreCardId": 1,
-      "matchUserId": 1,
-      "strokes": 4,
-      "courseHoleId": 7,
-      "notes": ""
-    },
-    {
-      "id": 8,
-      "scoreCardId": 1,
-      "matchUserId": 1,
-      "strokes": 6,
-      "courseHoleId": 8,
-      "notes": "bad"
-    },
-    {
-      "id": 9,
-      "scoreCardId": 1,
-      "matchUserId": 1,
-      "strokes": 4,
-      "courseHoleId": 9,
-      "notes": ""
-    },
-    {
-      "id": 10,
-      "scoreCardId": 1,
-      "matchUserId": 1,
-      "strokes": 4,
-      "courseHoleId": 10,
-      "notes": ""
-    },
-    {
-      "id": 11,
-      "scoreCardId": 1,
-      "matchUserId": 1,
-      "strokes": 4,
-      "courseHoleId": 11,
-      "notes": ""
-    },
-    {
-      "id": 12,
-      "scoreCardId": 1,
-      "matchUserId": 1,
-      "strokes": 4,
-      "courseHoleId": 12,
-      "notes": ""
-    },
-    {
-      "id": 13,
-      "scoreCardId": 1,
-      "matchUserId": 1,
-      "strokes": 4,
-      "courseHoleId": 13,
-      "notes": ""
-    },
-    {
-      "id": 14,
-      "scoreCardId": 1,
-      "matchUserId": 1,
-      "strokes": 4,
-      "courseHoleId": 14,
-      "notes": ""
-    },
-    {
-      "id": 15,
-      "scoreCardId": 1,
-      "matchUserId": 1,
-      "strokes": 4,
-      "courseHoleId": 15,
-      "notes": "try again"
-    },
-    {
-      "id": 16,
-      "scoreCardId": 1,
-      "matchUserId": 1,
-      "strokes": 4,
-      "courseHoleId": 16,
-      "notes": ""
-    },
-    {
-      "id": 17,
-      "scoreCardId": 1,
-      "matchUserId": 1,
-      "strokes": 4,
-      "courseHoleId": 17,
-      "notes": ""
-    },
-    {
-      "id": 18,
-      "scoreCardId": 1,
-      "matchUserId": 1,
-      "strokes": 4,
-      "courseHoleId": 18,
-      "notes": ""
-    },
-    {
-      "id": 19,
-      "scoreCardId": 2,
-      "matchUserId": 2,
-      "strokes": 4,
-      "courseHoleId": 1,
-      "notes": "im tiger"
-    },
-    {
-      "id": 20,
-      "scoreCardId": 2,
-      "matchUserId": 2,
-      "strokes": 3,
-      "courseHoleId": 2,
-      "notes": ""
-    },
-    {
-      "id": 21,
-      "scoreCardId": 2,
-      "matchUserId": 2,
-      "strokes": 3,
-      "courseHoleId": 3,
-      "notes": ""
-    },
-    {
-      "id": 22,
-      "scoreCardId": 2,
-      "matchUserId": 2,
-      "strokes": 3,
-      "courseHoleId": 4,
-      "notes": ""
-    },
-    {
-      "id": 23,
-      "scoreCardId": 2,
-      "matchUserId": 2,
-      "strokes": 4,
-      "courseHoleId": 5,
-      "notes": ""
-    },
-    {
-      "id": 24,
-      "scoreCardId": 2,
-      "matchUserId": 2,
-      "strokes": 10,
-      "courseHoleId": 6,
-      "notes": "easy there tiger"
-    },
-    {
-      "id": 25,
-      "scoreCardId": 2,
-      "matchUserId": 2,
-      "strokes": 4,
-      "courseHoleId": 7,
-      "notes": ""
-    },
-    {
-      "id": 26,
-      "scoreCardId": 2,
-      "matchUserId": 2,
-      "strokes": 6,
-      "courseHoleId": 8,
-      "notes": ""
-    },
-    {
-      "id": 27,
-      "scoreCardId": 2,
-      "matchUserId": 2,
-      "strokes": 7,
-      "courseHoleId": 9,
-      "notes": ""
-    },
-    {
-      "id": 28,
-      "scoreCardId": 2,
-      "matchUserId": 2,
-      "strokes": 4,
-      "courseHoleId": 10,
-      "notes": ""
-    },
-    {
-      "id": 29,
-      "scoreCardId": 2,
-      "matchUserId": 2,
-      "strokes": 4,
-      "courseHoleId": 11,
-      "notes": ""
-    },
-    {
-      "id": 30,
-      "scoreCardId": 2,
-      "matchUserId": 2,
-      "strokes": 4,
-      "courseHoleId": 12,
-      "notes": ""
-    },
-    {
-      "id": 31,
-      "scoreCardId": 2,
-      "matchUserId": 2,
-      "strokes": 4,
-      "courseHoleId": 13,
-      "notes": ""
-    },
-    {
-      "id": 32,
-      "scoreCardId": 2,
-      "matchUserId": 2,
-      "strokes": 6,
-      "courseHoleId": 14,
-      "notes": ""
-    },
-    {
-      "id": 33,
-      "scoreCardId": 2,
-      "matchUserId": 2,
-      "strokes": 4,
-      "courseHoleId": 15,
-      "notes": ""
-    },
-    {
-      "id": 34,
-      "scoreCardId": 2,
-      "matchUserId": 2,
-      "strokes": 8,
-      "courseHoleId": 16,
-      "notes": "what happened"
-    },
-    {
-      "id": 35,
-      "scoreCardId": 2,
-      "matchUserId": 2,
-      "strokes": 4,
-      "courseHoleId": 17,
-      "notes": ""
-    },
-    {
-      "id": 36,
-      "scoreCardId": 2,
-      "matchUserId": 2,
-      "strokes": 4,
-      "courseHoleId": 18,
-      "notes": ""
-    },
-    {
-      "matchUserId": 12,
-      "strokes": 5,
-      "courseHoleId": 1,
-      "notes": "none",
-      "id": 37
-    },
-    {
-      "matchUserId": 27,
-      "strokes": 5,
-      "courseHoleId": 1,
-      "notes": "none",
-      "id": 38
-    },
-    {
-      "matchUserId": 12,
-      "strokes": 9,
-      "courseHoleId": 2,
-      "notes": "terrible",
-      "id": 39
-    },
-    {
-      "matchUserId": 12,
-      "strokes": 3,
-      "courseHoleId": 3,
-      "notes": "better",
-      "id": 40
-    },
-    {
-      "matchUserId": 0,
-      "strokes": 2,
-      "courseHoleId": 1,
-      "notes": "",
-      "id": 41
-    },
-    {
-      "matchUserId": 29,
-      "strokes": 7,
-      "courseHoleId": 2,
-      "notes": "",
-      "id": 42
-    }
-  ]
+  "matchUserHoleScores": []
 }
