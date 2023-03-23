@@ -508,7 +508,7 @@
     },
     {
       "matchUserId": 1,
-      "strokes": 3,
+      "strokes": 12,
       "courseHoleId": 1,
       "notes": "",
       "id": 37
@@ -526,6 +526,27 @@
       "courseHoleId": 1,
       "notes": "",
       "id": 39
+    },
+    {
+      "matchUserId": 0,
+      "strokes": 0,
+      "courseHoleId": 1,
+      "notes": "",
+      "id": 40
+    },
+    {
+      "matchUserId": 0,
+      "strokes": 0,
+      "courseHoleId": 4,
+      "notes": "",
+      "id": 41
+    },
+    {
+      "matchUserId": 9,
+      "strokes": 12,
+      "courseHoleId": 1,
+      "notes": "",
+      "id": 42
     }
   ]
 }
