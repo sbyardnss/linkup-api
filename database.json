@@ -1,10 +1,10 @@
 {
   "users": [
     {
-      "id": 1,
       "name": "Stephen Byard",
       "email": "stephen@byard.com",
-      "password": "byard"
+      "password": "byard",
+      "id": 1
     },
     {
       "id": 2,
@@ -73,6 +73,14 @@
       "id": 9
     }
   ],
+  "messages": [
+    {
+      "id": 1,
+      "userId": 1,
+      "recipientId": 2,
+      "message": "you're toast"
+    }
+  ],
   "courses": [
     {
       "id": 1,
@@ -122,16 +130,14 @@
       "courseId": 1,
       "date": "03/25/2023",
       "time": "2:00 pm",
-      "message": "",
-      "confirmed": true,
+      "message": "",      
       "id": 1
     },
     {
       "courseId": 4,
       "date": "03/27/2023",
       "time": "3:15 pm",
-      "message": "next week",
-      "confirmed": true,
+      "message": "next week",     
       "id": 2
     },
     {
@@ -139,7 +145,6 @@
       "date": "04/07/2023",
       "time": "4:00 pm",
       "message": "twilight time with the tiger",
-      "confirmed": false,
       "id": 3
     },
     {
@@ -147,7 +152,6 @@
       "date": "03/27/2023",
       "time": "3:00 pm",
       "message": "chill time",
-      "confirmed": false,
       "id": 4
     },
     {
@@ -155,7 +159,6 @@
       "date": "04/05/2023",
       "time": "10:00 am",
       "message": "",
-      "confirmed": false,
       "id": 5
     },
     {
@@ -163,8 +166,14 @@
       "date": "03/29/2023",
       "time": "09:00 am",
       "message": "early one",
-      "confirmed": false,
       "id": 6
+    },
+    {
+      "courseId": 3,
+      "date": "03/24/2023",
+      "time": "12:00 am",
+      "message": "",
+      "id": 7
     }
   ],
   "userMatches": [
@@ -251,6 +260,13 @@
       "isInitiator": false,
       "totalStrokes": 0,
       "id": 12
+    },
+    {
+      "matchId": 7,
+      "userId": 1,
+      "isInitiator": true,
+      "totalStrokes": 0,
+      "id": 13
     }
   ],
   "matchUserHoleScores": [
@@ -528,25 +544,11 @@
       "id": 39
     },
     {
-      "matchUserId": 0,
-      "strokes": 0,
-      "courseHoleId": 1,
-      "notes": "",
-      "id": 40
-    },
-    {
-      "matchUserId": 0,
-      "strokes": 0,
-      "courseHoleId": 4,
-      "notes": "",
-      "id": 41
-    },
-    {
       "matchUserId": 9,
-      "strokes": 12,
+      "strokes": 0,
       "courseHoleId": 1,
-      "notes": "",
-      "id": 42
+      "notes": "did not finish",
+      "id": 40
     }
   ]
 }
