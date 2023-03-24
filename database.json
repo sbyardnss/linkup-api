@@ -29,6 +29,12 @@
       "name": "dan brown",
       "password": "dan",
       "id": 5
+    },
+    {
+      "email": "new@user.com",
+      "name": "new user",
+      "password": "new",
+      "id": 6
     }
   ],
   "userFriends": [
@@ -71,6 +77,21 @@
       "userId": 1,
       "friendId": 3,
       "id": 9
+    },
+    {
+      "userId": 6,
+      "friendId": 2,
+      "id": 10
+    },
+    {
+      "userId": 6,
+      "friendId": 4,
+      "id": 11
+    },
+    {
+      "userId": 6,
+      "friendId": 3,
+      "id": 12
     }
   ],
   "messages": [
@@ -196,6 +217,13 @@
       "time": "1:00 pm",
       "message": "",
       "id": 8
+    },
+    {
+      "courseId": 2,
+      "date": "03/29/2023",
+      "time": "3:00 pm",
+      "message": "twilight action",
+      "id": 9
     }
   ],
   "userMatches": [
@@ -303,6 +331,34 @@
       "isInitiator": false,
       "totalStrokes": 0,
       "id": 15
+    },
+    {
+      "matchId": 4,
+      "userId": 6,
+      "isInitiator": false,
+      "totalStrokes": 0,
+      "id": 16
+    },
+    {
+      "matchId": 5,
+      "userId": 6,
+      "isInitiator": false,
+      "totalStrokes": 0,
+      "id": 18
+    },
+    {
+      "matchId": 8,
+      "userId": 6,
+      "isInitiator": false,
+      "totalStrokes": 0,
+      "id": 19
+    },
+    {
+      "matchId": 9,
+      "userId": 6,
+      "isInitiator": true,
+      "totalStrokes": 0,
+      "id": 20
     }
   ],
   "matchUserHoleScores": [
