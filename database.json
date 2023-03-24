@@ -76,9 +76,24 @@
   "messages": [
     {
       "id": 1,
+      "userId": 2,
+      "recipientId": 1,
+      "message": "you're toast",
+      "read": true
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "recipientId": 1,
+      "message": "jk",
+      "read": false
+    },
+    {
       "userId": 1,
-      "recipientId": 2,
-      "message": "you're toast"
+      "recipientId": "2",
+      "message": "no way dawg",
+      "read": false,
+      "id": 3
     }
   ],
   "courses": [
@@ -130,14 +145,14 @@
       "courseId": 1,
       "date": "03/25/2023",
       "time": "2:00 pm",
-      "message": "",      
+      "message": "",
       "id": 1
     },
     {
       "courseId": 4,
       "date": "03/27/2023",
       "time": "3:15 pm",
-      "message": "next week",     
+      "message": "next week",
       "id": 2
     },
     {
@@ -174,6 +189,13 @@
       "time": "12:00 am",
       "message": "",
       "id": 7
+    },
+    {
+      "courseId": 5,
+      "date": "03/29/2023",
+      "time": "1:00 pm",
+      "message": "",
+      "id": 8
     }
   ],
   "userMatches": [
@@ -267,6 +289,20 @@
       "isInitiator": true,
       "totalStrokes": 0,
       "id": 13
+    },
+    {
+      "matchId": 8,
+      "userId": 3,
+      "isInitiator": true,
+      "totalStrokes": 0,
+      "id": 14
+    },
+    {
+      "matchId": 8,
+      "userId": 1,
+      "isInitiator": false,
+      "totalStrokes": 0,
+      "id": 15
     }
   ],
   "matchUserHoleScores": [
