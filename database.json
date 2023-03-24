@@ -111,7 +111,7 @@
     },
     {
       "userId": 1,
-      "recipientId": "2",
+      "recipientId": 2,
       "message": "no way dawg",
       "read": false,
       "id": 3
