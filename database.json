@@ -94,6 +94,11 @@
       "userId": 2,
       "friendId": 5,
       "id": 13
+    },
+    {
+      "userId": 1,
+      "friendId": 2,
+      "id": 14
     }
   ],
   "messages": [
@@ -102,21 +107,24 @@
       "userId": 2,
       "recipientId": 1,
       "message": "you're toast",
-      "read": true
+      "read": true,
+      "time": 1679941975517
     },
     {
       "id": 2,
       "userId": 2,
       "recipientId": 1,
       "message": "jk",
-      "read": false
+      "read": false,
+      "time": 1679942045747
     },
     {
       "userId": 1,
       "recipientId": 2,
       "message": "no way dawg",
       "read": false,
-      "id": 3
+      "id": 3,
+      "time": 1679942065191
     }
   ],
   "courses": [
