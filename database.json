@@ -29,24 +29,6 @@
       "name": "dan brown",
       "password": "dan",
       "id": 5
-    },
-    {
-      "email": "new@user.com",
-      "name": "new user",
-      "password": "new",
-      "id": 6
-    },
-    {
-      "email": "testing@test.com",
-      "name": "testing ",
-      "password": "test",
-      "id": 7
-    },
-    {
-      "email": "happy@gil.com",
-      "name": "happy gilmore",
-      "password": "gil",
-      "id": 8
     }
   ],
   "userFriends": [
@@ -99,6 +81,11 @@
       "userId": 1,
       "friendId": 2,
       "id": 14
+    },
+    {
+      "userId": 5,
+      "friendId": 1,
+      "id": 15
     }
   ],
   "messages": [
@@ -125,6 +112,14 @@
       "read": false,
       "id": 3,
       "time": 1679942065191
+    },
+    {
+      "userId": 1,
+      "recipientId": 5,
+      "message": "whatchu got?",
+      "time": 1680013899975,
+      "read": false,
+      "id": 4
     }
   ],
   "courses": [
@@ -630,6 +625,55 @@
       "courseHoleId": 2,
       "notes": "",
       "id": 41
+    },
+    {
+      "matchUserId": 7,
+      "strokes": 9,
+      "courseHoleId": 2,
+      "notes": "",
+      "id": 42
+    },
+    {
+      "matchUserId": 3,
+      "strokes": 10,
+      "courseHoleId": 2,
+      "notes": "",
+      "id": 43
+    },
+    {
+      "matchUserId": 9,
+      "strokes": 5,
+      "courseHoleId": 2,
+      "notes": "",
+      "id": 44
+    },
+    {
+      "matchUserId": 1,
+      "strokes": 0,
+      "courseHoleId": 3,
+      "notes": "did not finish",
+      "id": 45
+    },
+    {
+      "matchUserId": 9,
+      "strokes": 0,
+      "courseHoleId": 3,
+      "notes": "did not finish",
+      "id": 46
+    },
+    {
+      "matchUserId": 3,
+      "strokes": 0,
+      "courseHoleId": 3,
+      "notes": "did not finish",
+      "id": 47
+    },
+    {
+      "matchUserId": 7,
+      "strokes": 0,
+      "courseHoleId": 3,
+      "notes": "did not finish",
+      "id": 48
     }
   ]
 }
