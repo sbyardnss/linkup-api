@@ -214,7 +214,7 @@
     },
     {
       "courseId": 6,
-      "date": "03/27/2023",
+      "date": "04/01/2023",
       "time": "3:00 pm",
       "message": "chill time",
       "id": 4
@@ -228,7 +228,7 @@
     },
     {
       "courseId": 4,
-      "date": "03/29/2023",
+      "date": "04/15/2023",
       "time": "09:00 am",
       "message": "early one",
       "id": 6
@@ -242,7 +242,7 @@
     },
     {
       "courseId": 2,
-      "date": "03/27/2023",
+      "date": "04/04/2023",
       "time": "3:00 pm",
       "message": "",
       "id": 9
@@ -367,6 +367,13 @@
       "isInitiator": false,
       "totalStrokes": 0,
       "id": 21
+    },
+    {
+      "matchId": 9,
+      "userId": 1,
+      "isInitiator": false,
+      "totalStrokes": 0,
+      "id": 22
     }
   ],
   "matchUserHoleScores": [
