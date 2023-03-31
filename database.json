@@ -58,34 +58,34 @@
       "id": 5
     },
     {
-      "userId": 1,
-      "friendId": 5,
-      "id": 7
-    },
-    {
-      "userId": 1,
-      "friendId": 4,
-      "id": 8
-    },
-    {
-      "userId": 1,
-      "friendId": 3,
-      "id": 9
-    },
-    {
       "userId": 2,
       "friendId": 5,
       "id": 13
     },
     {
-      "userId": 1,
-      "friendId": 2,
-      "id": 14
-    },
-    {
       "userId": 5,
       "friendId": 1,
       "id": 15
+    },
+    {
+      "userId": 1,
+      "friendId": 2,
+      "id": 16
+    },
+    {
+      "userId": 1,
+      "friendId": 3,
+      "id": 17
+    },
+    {
+      "userId": 1,
+      "friendId": 4,
+      "id": 18
+    },
+    {
+      "userId": 1,
+      "friendId": 5,
+      "id": 19
     }
   ],
   "messages": [
@@ -362,18 +362,32 @@
       "id": 20
     },
     {
-      "matchId": 5,
-      "userId": 1,
-      "isInitiator": false,
-      "totalStrokes": 0,
-      "id": 21
-    },
-    {
       "matchId": 9,
       "userId": 1,
       "isInitiator": false,
       "totalStrokes": 0,
       "id": 22
+    },
+    {
+      "matchId": 4,
+      "userId": 1,
+      "isInitiator": false,
+      "totalStrokes": 0,
+      "id": 23
+    },
+    {
+      "matchId": 3,
+      "userId": 1,
+      "isInitiator": false,
+      "totalStrokes": 0,
+      "id": 24
+    },
+    {
+      "matchId": 5,
+      "userId": 1,
+      "isInitiator": false,
+      "totalStrokes": 0,
+      "id": 25
     }
   ],
   "matchUserHoleScores": [
