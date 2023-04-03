@@ -29,12 +29,6 @@
       "name": "dan brown",
       "password": "dan",
       "id": 5
-    },
-    {
-      "email": "testing@test.com",
-      "name": "testing",
-      "password": "test",
-      "id": 6
     }
   ],
   "userFriends": [
@@ -69,44 +63,29 @@
       "id": 15
     },
     {
-      "userId": 1,
-      "friendId": 3,
-      "id": 17
+      "userId": 3,
+      "friendId": 4,
+      "id": 24
     },
     {
       "userId": 1,
-      "friendId": 4,
-      "id": 18
+      "friendId": 2,
+      "id": 25
+    },
+    {
+      "userId": 1,
+      "friendId": 3,
+      "id": 26
     },
     {
       "userId": 1,
       "friendId": 5,
-      "id": 19
+      "id": 27
     },
     {
       "userId": 1,
-      "friendId": 2,
-      "id": 20
-    },
-    {
-      "userId": 6,
-      "friendId": 1,
-      "id": 21
-    },
-    {
-      "userId": 6,
-      "friendId": 2,
-      "id": 22
-    },
-    {
-      "userId": 6,
-      "friendId": 3,
-      "id": 23
-    },
-    {
-      "userId": 3,
       "friendId": 4,
-      "id": 24
+      "id": 28
     }
   ],
   "messages": [
@@ -311,6 +290,13 @@
       "isInitiator": true,
       "totalStrokes": 0,
       "id": 13
+    },
+    {
+      "matchId": 3,
+      "userId": 1,
+      "isInitiator": false,
+      "totalStrokes": 0,
+      "id": 14
     }
   ],
   "matchUserHoleScores": [
