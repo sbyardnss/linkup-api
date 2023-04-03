@@ -69,11 +69,6 @@
     },
     {
       "userId": 1,
-      "friendId": 2,
-      "id": 16
-    },
-    {
-      "userId": 1,
       "friendId": 3,
       "id": 17
     },
@@ -86,6 +81,11 @@
       "userId": 1,
       "friendId": 5,
       "id": 19
+    },
+    {
+      "userId": 1,
+      "friendId": 2,
+      "id": 20
     }
   ],
   "messages": [
@@ -102,7 +102,7 @@
       "userId": 2,
       "recipientId": 1,
       "message": "jk",
-      "read": false,
+      "read": true,
       "time": 1679942045747
     },
     {
